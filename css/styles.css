@@ -18,8 +18,8 @@ h1{
   display: inline-flex;
   color:#f5c0c0;
   margin-left:  1%;
-  padding-left: 2%;
-  padding-right: 22%;
+  padding-left: 12%;
+  padding-right: 2%;
   text-align: center;
   }
   .containers ul li {
@@ -92,7 +92,8 @@ h1{
 }
 .item1{
   text-align: center;
-  background-color: #f5c0c0;
+  /* background-color: #f5c0c0; */
+  margin:0%
 }
 #ft{
  align-items: baseline;
@@ -108,4 +109,11 @@ footer{
 .nav-list{
   background-color: #c8c6a7;
   width: 2000px;
+}
+.item6{
+  text-align: center;
+  padding: 0%;
+  margin-left: 0%;
+  text-decoration:underline;
+  background-color: white;
 }
