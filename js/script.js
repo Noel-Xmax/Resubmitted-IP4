@@ -1,9 +1,8 @@
-function Pizza(toppings, size){
+function PizzaCost(toppings, size){
   this.toppings = toppings,
   this.size = size
 }
-
-Pizza.prototype.toppingsBasedAmount = function(){
+PizzaCost.prototype.toppingsBasedAmount = function(){
     if(this.toppings.length != 0){
       var toppingPrice = this.toppings.length *3;
       return toppingPrice;
@@ -12,7 +11,7 @@ Pizza.prototype.toppingsBasedAmount = function(){
     }
   }
 
-Pizza.prototype.sizeBasedAmount = function(){
+  PizzaCost.prototype.sizeBasedAmount = function(){
   if (this.size === "Small"){
     return 4;
   } else if(this.size === "Medium"){
@@ -24,12 +23,12 @@ Pizza.prototype.sizeBasedAmount = function(){
   }
 }
 
-Pizza.prototype.calculateCost = function(tBasedAmt, sizeBasedAmt){
+PizzaCost.prototype.calculateCost = function(tBasedAmt, sizeBasedAmt){
   var totalCost =tBasedAmt +sizeBasedAmt;
   $("#displayTotalCost").html(totalCost);
 }
 
-var pizza;
+var PizzaCost;
 $(document).ready(function(){
   $("#formid").submit(function(event){
     event.preventDefault();
@@ -47,11 +46,11 @@ $(document).ready(function(){
    $("#displayName").text(inputtedName);
    $("#displaySize").text(inputtedSize);
 
-   pizza = new Pizza(toppingArray,inputtedSize);
+   PizzaCost = new PizzaCost(toppingArray,inputtedSize);
 
-   var toppingBasedAmt = pizza.toppingsBasedAmount();
-   var sizeBasedAmt = pizza.sizeBasedAmount();
-   pizza.calculateCost(toppingBasedAmt, sizeBasedAmt);
+   var toppingBasedAmt = PizzaCost.toppingsBasedAmount();
+   var sizeBasedAmt = PizzaCost.sizeBasedAmount();
+   PizzaCost.calculateCost(toppingBasedAmt, sizeBasedAmt);
   });
 });
 $("#address1").click(function(){
