@@ -1,0 +1,78 @@
+*{
+  color: maroon;
+  margin: 1%;
+}
+img{
+  width: 300px;
+  height: 280px;
+  float:left;
+}
+h1{
+  font-weight: bolder;
+}
+
+#show-Bill{
+  display :none;
+}
+.menu-bar{
+  display: none;
+}
+.containers ul li:hover link.menu-bar{
+  display:block;
+  position:absolute;
+}
+
+.item1{
+  text-align: center;
+  padding: 1%;
+  margin-left: 1%;
+  /* margin-top: 15%; */
+}
+.col-md-4{
+  margin: 5px;
+  /* border: 1px solid grey; */
+  float: left;
+  /* width: 390px; */
+  box-sizing: border-box;
+  padding-left: 2%;
+}
+#logo{
+  width: 200px;
+  height: 150px;
+  float: left;
+}
+#pname{
+  padding: 2%;
+  text-align: center;
+  text-decoration: underline;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#mantra{
+  text-shadow: chocolate;
+  text-align: right;
+}
+.Card-Intro{
+  background-color: blanchedalmond;
+  /* margin-top: 2%; */
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.menu-bar{
+  display: none;
+}
+.containers ul li:hover link.menu-bar{
+  display:block;
+  position:absolute;
+}
+.card-menu{
+  /* max-width: 1220px;
+  margin: 12px; */
+  background: cornsilk;
+  overflow: auto;
+
+}
+.item1{
+  text-align: center;
+  padding: 1%;
+  margin-left: 1%;
+}

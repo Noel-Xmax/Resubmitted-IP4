@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script><link  rel="styleshee" href="CSS/style.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title><em>Leo Nimekula-ko Pizza</em></title>
+  </head>
+  <body>
+    <div class="Card-Intro">
+      <img id="logo" src="Assets/Logo.PNG" alt="logo">
+      <br>
+      <br>
+      <br>
+      <h1 id="pname">Tule Pizza</h1><br>
+      <p2 id="mantra"><em>We are here to serve you, cause we get it:
+        <br>There's no greater love, than the love of Pizza</em></p3>
+    </div>
+    <div class="containers">
+      <nav class="navbar">
+        <ul class="nav-list">
+          <li id="active" class="nav-item"><a href="#">Home</a></li>
+          <li class="nav-item" id="men"><a href="#">Menu</a></li>
+          <li class="nav-item" id="sz"><a href="#">Sizes</a></li>
+          <li class="nav-item" id="prz"><a href="#">Prices</a></li>
+          <li class="nav-item"><a href="#">Order-Cart</a></li>
+          <li class="nav-item"><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+  <div class="container">
+    <div><div class="card-menu">
+      <div class="item1"><h2>Classic Burgers</h2>
+        <div>
+          <div class="col-md-4">
+            <img id ="img" src="Assets/Pizzas.jpg" alt="Chk" width="300px" height="200px">
+            <label class="descr">Something Meaty</label>
+          </div>
+        </div>
+        <div>
+          <div class="col-md-4">
+            <img id ="img" src="Assets/Pizza/VeganM.jpg" alt="Chk" width="300px" height="200px">
+            <label class="descr">Chicken BBQ</label>
+          </div>
+        </div>
+        <div>
+          <div class="col-md-4">
+            <img id ="img" src="Assets/Pizza/Vegan.jpg" alt="Chk" width="300px" height="200px">
+            <label class="descr">Chicken BBQ</label>
+          </div>
+        </div>
+        <div>
+          <div class="col-md-4">
+            <img id ="img" src="Assets/Pizza/BBQC.jpg" alt="Chk" width="300px" height="200px">
+            <label class="descr">Vegan Feast</label>
+          </div>
+        </div>
+        <div>
+          <div class="col-md-4">
+            <img id ="img" src="Assets/Pizza/Margh.jpg" alt="Chk" width="300px" height="200px">
+            <label class="descr">Margharitta</label>
+          </div>
+        </div>
+        <div>
+          <div class="col-md-4">
+            <img id ="img" src="Assets/Pizza/Hawai.jpg" alt="Chk" width="300px" height="200px">
+            <label class="descr">Hawaiian</label>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+      <!-- <img src="Assets/Pizza/BBQC.jpg" alt="pizzaPic" class= "rounded" width=400px>
+      <h1><em>Tule Pizza</em></h1> -->
+    </div>
+     <div class="row">
+          <div class="col-md-8">
+            <form id="formid">
+              <form id="address">
+                <p>Prefer Delivery!?!</p>
+                <h2 id="order" >Order Now!!</h2>
+                <input type="text" id="address" placeholder="Your Location"size="80px">
+                  <button type="button" id="address1"> Start</button>
+                </div>
+              </form>
+                <div>
+                  <label for="burgers">Type of Burger : </label>
+                  <select id="burger" class="form-control">
+                    <option selected>Choose your preferred Burger</option>
+                    <option value= "Chicken">Chicken BBQ</option>
+                    <option value= "Vegan">Vegan Feast</option>
+                    <option value = "Meaty">Vegan Feast</option>
+                    <option value= "Hawaiaan">Hawaiaan</option>
+                  </select>
+                </div>
+              <div>
+                <label for="noToppings">Number of Toppings : </label>
+                <select id="noToppings" class="form-control">
+                  <option selected>Choose the number of toppings</option>
+                  <option value= "1">1</option>
+                  <option value= "2">2</option>
+                  <option value = "3">3</option>
+                  <option value= "4">4</option>
+                </select>
+              </div>
+              <div class="form-check">
+                <label for="chooseToppings"><strong><em>Choose your Toppings:</em></strong></label><br>
+
+                <input class="form-check-input" type="checkbox" value="Cheese" name="toppingCheck">
+                <label class="form-check-label" for="cheese">
+                  Cheese
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="Pineapples" name="toppingCheck" >
+                <label class="form-check-label" for="Pineapples">
+                  Pineapples
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="Olives" name="toppingCheck" >
+                <label class="form-check-label" for="Olives">
+                  Olives
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="Bacon" name="toppingCheck" >
+                <label class="form-check-label" for="Bacon">
+                  Bacon
+                </label>
+              </div>
+              <div class="form-check">
+                <label for="chooseToppings"><strong><em>Choose the size of your Pizza:</em></strong></label><br>
+                <input class="form-check-input" type="radio" name="sizePizza" id="option1" value="Small">
+                <label class="form-check-label" for="sizeSmall">
+                  Small (400)
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="sizePizza" id="option2" value="Medium">
+                <label class="form-check-label" for="sizeMedium">
+                  Medium (600)
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="sizePizza" id="option3" value="Large">
+                <label class="form-check-label" for="sizeLarge">
+                  Large (800)
+                </label>
+              </div><br><button type="submit" class="btn-primary" id="btn-submit">Checkout</button>
+            </form>
+          </div><div class="col-md-4">
+            <div id="show-Bill">
+            <div class="panel panel-default">
+              <div class="panel-body">
+                <p><strong>You final bill is...</strong></p>
+                <p>Burger: <span id="displayBurger"></span></p>
+                <p>Toppings: <span id="displayToppings"></span></p>
+                <p>Size: <span id="displaySize"></span></p> 
+                <p>Total cost: Ksh. <span id="displayTotalCost"></span></p>
+              </div>
+              <div class="panel-footer">We are happy to serve you!! !!!</div>
+            </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </body>
+    <script src = "js/script.js"></script>
+    </html>
