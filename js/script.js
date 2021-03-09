@@ -54,3 +54,6 @@ $(document).ready(function(){
    pizza.calculateCost(toppingBasedAmt, sizeBasedAmt);
   });
 });
+$("#address1").click(function(){
+  alert("We are happy to serve you to your preferred location, This attracts a delivery Charge of Ksh. 100.00");
+    });

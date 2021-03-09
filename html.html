@@ -24,8 +24,6 @@
         <ul class="nav-list">
           <li id="active" class="nav-item"><a href="#">Home</a></li>
           <li class="nav-item" id="men"><a href="#">Menu</a></li>
-          <li class="nav-item" id="sz"><a href="#">Sizes</a></li>
-          <li class="nav-item" id="prz"><a href="#">Prices</a></li>
           <li class="nav-item"><a href="#">Order-Cart</a></li>
           <li class="nav-item"><a href="#">Contact Us</a></li>
         </ul>
@@ -75,56 +73,54 @@
       <!-- <img src="Assets/Pizza/BBQC.jpg" alt="pizzaPic" class= "rounded" width=400px>
       <h1><em>Tule Pizza</em></h1> -->
     </div>
-     <div class="row">
-          <div class="col-md-8">
-            <form id="formid">
-              <form id="address">
-                <p>Prefer Delivery!?!</p>
-                <h2 id="order" >Order Now!!</h2>
-                <input type="text" id="address" placeholder="Your Location"size="80px">
-                  <button type="button" id="address1"> Start</button>
-                </div>
-              </form>
-                <div>
-                  <label for="burgers">Type of Burger : </label>
-                  <select id="burger" class="form-control">
-                    <option selected>Choose your preferred Burger</option>
-                    <option value= "Chicken">Chicken BBQ</option>
-                    <option value= "Vegan">Vegan Feast</option>
-                    <option value = "Meaty">Vegan Feast</option>
-                    <option value= "Hawaiaan">Hawaiaan</option>
-                  </select>
-                </div>
-              <div>
-                <label for="noToppings">Number of Toppings : </label>
-                <select id="noToppings" class="form-control">
-                  <option selected>Choose the number of toppings</option>
-                  <option value= "1">1</option>
-                  <option value= "2">2</option>
-                  <option value = "3">3</option>
-                  <option value= "4">4</option>
-                </select>
-              </div>
-              <div class="form-check">
-                <label for="chooseToppings"><strong><em>Choose your Toppings:</em></strong></label><br>
-
+      <div class="row">
+        <form id="address">
+          <p>Prefer Delivery!?!</p>
+          <h2 id="order" >Order Now!!</h2>
+          <input type="text" id="address" placeholder="Your Location"size="80px">
+          <button type="button" id="address1"> Start</button>
+        </form>
+        <div class="col-md-8">
+          <form id="formid">
+            <div>
+              <label for="burgers">Type of Burger : </label>
+              <select id="burger" class="form-control">
+                <option selected>Choose your preferred Burger</option>
+                <option value= "Chicken">Chicken BBQ</option>
+                <option value= "Vegan">Vegan Feast</option>
+                <option value = "Meaty">Vegan Feast</option>
+                <option value= "Hawaiaan">Hawaiaan</option>
+              </select>
+            </div>
+            <div>
+              <label for="noToppings">Number of Toppings : </label>
+              <select id="noToppings" class="form-control">
+                <option selected>Choose the number of toppings</option>
+                <option value= "1">1</option>
+                <option value= "2">2</option>
+                <option value = "3">3</option>
+                <option value= "4">4</option>
+              </select>
+            </div>
+            <div class="form-check">
+              <label for="chooseToppings"><strong><em>Choose your Toppings:</em></strong></label><br>
                 <input class="form-check-input" type="checkbox" value="Cheese" name="toppingCheck">
                 <label class="form-check-label" for="cheese">
                   Cheese
-                </label>
-              </div>
+              </label>
+            </div>
               <div class="form-check">
                 <input class="form-check-input" type="checkbox" value="Pineapples" name="toppingCheck" >
                 <label class="form-check-label" for="Pineapples">
-                  Pineapples
-                </label>
-              </div>
+                 Pineapples
+              </label>
+            </div>
               <div class="form-check">
                 <input class="form-check-input" type="checkbox" value="Olives" name="toppingCheck" >
                 <label class="form-check-label" for="Olives">
-                  Olives
-                </label>
-              </div>
+                Olives
+              </label>
+            </div>
               <div class="form-check">
                 <input class="form-check-input" type="checkbox" value="Bacon" name="toppingCheck" >
                 <label class="form-check-label" for="Bacon">
@@ -133,8 +129,8 @@
               </div>
               <div class="form-check">
                 <label for="chooseToppings"><strong><em>Choose the size of your Pizza:</em></strong></label><br>
-                <input class="form-check-input" type="radio" name="sizePizza" id="option1" value="Small">
-                <label class="form-check-label" for="sizeSmall">
+                  <input class="form-check-input" type="radio" name="sizePizza" id="option1" value="Small">
+                  <label class="form-check-label" for="sizeSmall">
                   Small (400)
                 </label>
               </div>
@@ -170,5 +166,10 @@
       </div>
     </div>
     </body>
-    <script src = "js/script.js"></script>
-    </html>
+    <footer>
+      <img id="ft" src="Assets/facebook3.png">
+      <img id= "ft" src="Assets/twitter1.png">
+      <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script> 
+     <script src="js/script"></script>
+    </footer>
+  </html>

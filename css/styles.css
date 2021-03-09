@@ -1,6 +1,7 @@
 *{
   color: maroon;
   margin: 1%;
+  background-color: 91684a;
 }
 img{
   width: 300px;
@@ -14,20 +15,36 @@ h1{
 #show-Bill{
   display :none;
 }
-.menu-bar{
-  display: none;
-}
-.containers ul li:hover link.menu-bar{
-  display:block;
-  position:absolute;
-}
-
-.item1{
+containers ul{
+  display: inline-flex;
+  color: whitesmoke;
+  margin-left:  4%;
+  padding-left: 1%;
+  padding-right: 2%;
   text-align: center;
-  padding: 1%;
-  margin-left: 1%;
-  /* margin-top: 15%; */
-}
+  }
+  .containers ul li {
+    width: 120px;
+    margin: 1px;
+    padding: 5px;
+    list-style: none;
+    text-align: center;
+    margin-left: 2%;
+    display: inline;
+  }
+  .containers ul li a {
+    text-decoration: none;
+    color:maroon;
+    text-align: center;
+  }
+  .nav-item,.containers ul li 
+  {
+  /* background-color:moccasin; */
+  border-radius: 1px;
+  }
+  #nav-item,.containers ul li:hover {
+    background: peachpuff;
+  }
 .col-md-4{
   margin: 5px;
   /* border: 1px solid grey; */
@@ -60,13 +77,16 @@ h1{
 .menu-bar{
   display: none;
 }
+.containers{
+  margin: 0%;
+  padding: 0%;
+}
 .containers ul li:hover link.menu-bar{
   display:block;
   position:absolute;
+  list-style: none;
 }
 .card-menu{
-  /* max-width: 1220px;
-  margin: 12px; */
   background: cornsilk;
   overflow: auto;
 
@@ -75,4 +95,16 @@ h1{
   text-align: center;
   padding: 1%;
   margin-left: 1%;
+}
+#ft{
+  /* width: 10px;
+  height: 50px; */
+  padding: 6%;
+  color: #000;
+}
+footer{
+  background-color:lightgray;
+}
+.row{
+  background:#c8c6a7;
 }
