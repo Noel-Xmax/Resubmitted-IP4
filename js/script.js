@@ -4,7 +4,7 @@ function PizzaCost(toppings, size){
 }
 PizzaCost.prototype.toppingsCost = function(){
     if(this.toppings.length != 0){
-      var toppingPrice = this.toppings.length *3;
+      var toppingPrice = this.toppings.length * 800 + 150;
       return toppingPrice;
     }else {
       alert("please choose your Toppings !!")
@@ -33,7 +33,7 @@ $(document).ready(function(){
   $("#formid").submit(function(event){
     event.preventDefault();
     $("#show-Bill").show();
-    var inputtedName = $("#name").val();
+    var inputtedBurger = $("#burger").val();
     var inputtedNoToppings = parseInt($("#noToppings").val());
     var toppingArray = [];
     $("input:checkbox[name=toppingCheck]:checked").each(function(){
@@ -42,11 +42,12 @@ $(document).ready(function(){
      $("#displayToppings").text(inputtedToppings + ",");
    });
 
-   var inputtedSize =$("input:radio[name=sizePizza]:checked").val();
-   $("#displayName").text(inputtedName);
-   $("#displaySize").text(inputtedSize);
+   var pizzaSized =$("input:radio[name=sizePizza]:checked").val();
+   $("#displayBurger").text(inputtedBurger);
+   $("#displaySize").text(pizzaSized);
 
-   PizzaCost = new PizzaCost(toppingArray,inputtedSize);
+
+   PizzaCost = new PizzaCost(toppingArray,pizzaSized);
 
    var toppingBasedAmt = PizzaCost.toppingsCost();
    var sizeBasedAmt = PizzaCost.sizeCost();

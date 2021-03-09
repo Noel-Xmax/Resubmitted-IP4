@@ -1,7 +1,6 @@
 *{
   color: maroon;
   margin: 1%;
-  background-color: 91684a;
 }
 img{
   width: 300px;
@@ -15,12 +14,12 @@ h1{
 #show-Bill{
   display :none;
 }
-containers ul{
+.containers ul{
   display: inline-flex;
-  color: whitesmoke;
-  margin-left:  0%;
-  padding-left: 1%;
-  padding-right: 2%;
+  color:#f5c0c0;
+  margin-left:  1%;
+  padding-left: 2%;
+  padding-right: 22%;
   text-align: center;
   }
   .containers ul li {
@@ -29,7 +28,7 @@ containers ul{
     padding: 5px;
     list-style: none;
     text-align: center;
-    margin-left: 2%;
+    margin-left: 0%;
     display: inline;
   }
   .containers ul li a {
@@ -46,7 +45,7 @@ containers ul{
     background: peachpuff;
   }
 .col-md-4{
-  margin: 5px;
+  margin: 6px;
   /* border: 1px solid grey; */
   float: left;
   /* width: 390px; */
@@ -57,16 +56,21 @@ containers ul{
   width: 200px;
   height: 150px;
   float: left;
+  margin-left: 5%;
+  
 }
 #pname{
   padding: 2%;
   text-align: center;
   text-decoration: underline;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
 }
 #mantra{
   text-shadow: chocolate;
   text-align: right;
+  margin-left: 2%;
+  font-weight: 400;
 }
 .Card-Intro{
   background-color: blanchedalmond;
@@ -86,15 +90,9 @@ containers ul{
   position:absolute;
   list-style: none;
 }
-.card-menu{
-  background-color: #d0af84;
-
-}
 .item1{
   text-align: center;
-  padding: 0%;
-  margin-left: 0%;
-  background-color: #d0af84;
+  background-color: #f5c0c0;
 }
 #ft{
  align-items: baseline;
@@ -104,4 +102,10 @@ footer{
 }
 .row{
   background:#c8c6a7;
+  text-align: center;
+  /* margin-left:6%; */
+}
+.nav-list{
+  background-color: #c8c6a7;
+  width: 2000px;
 }
