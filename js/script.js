@@ -4,7 +4,7 @@ function PizzaCost(toppings, size){
 }
 PizzaCost.prototype.toppingsCost = function(){
     if(this.toppings.length != 0){
-      var toppingPrice = this.toppings.length * 800 + 150;
+      var toppingPrice = this.toppings.length * 5 + 600 + 100;
       return toppingPrice;
     }else {
       alert("please choose your Toppings !!")
